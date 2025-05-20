@@ -43,12 +43,14 @@ export default function Projects() {
               <Text style={styles.cardTitle}>{item.title}</Text>
               <Image source={item.image} style={styles.cardImage} />
               <Text style={styles.cardDescription}>{item.description}</Text>
-              <TouchableOpacity
+              {item.linkText && (
+                <TouchableOpacity
                 style={styles.cardButton}
                 onPress={() => handleButtonPress(item.link)}
-              >
+                >
                 <Text style={styles.cardButtonText}>{item.linkText}</Text>
               </TouchableOpacity>
+              )}
             </View>
           )}
           onScroll={handleScroll}

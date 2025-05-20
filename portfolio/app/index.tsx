@@ -1,9 +1,19 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import Navbar from "./components/navbar";
+import { router } from "expo-router";
 
 export default function Index() {
   return (
     <View style={styles.container}>
+      <TouchableOpacity 
+        style={{ position: "absolute", top: 50, right: 20 }} 
+        onPress={() => router.push("/(tabs)/sobre")}>
+        <Image
+          source={require("../assets/images/info.png")}
+          style={{ width: 30, height: 30, tintColor: "#eaf6ffff" }}
+          >
+        </Image>
+      </TouchableOpacity>
       <View style={styles.textContainer}>
         <Text style={styles.title}>Eduardo Costa Braga</Text>
         <Image

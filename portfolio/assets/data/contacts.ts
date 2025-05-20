@@ -22,7 +22,7 @@ export const contacts: Contact[] = [
 		id: 3,
 		name: "Instagram",
 		image: require("../../assets/images/logo-instagram.png"),
-		link: "https://www.instagram.com/dudubragaa/",
+		link: "https://www.instagram.com/duducbraga/",
 	},
 	{
 		id: 4,

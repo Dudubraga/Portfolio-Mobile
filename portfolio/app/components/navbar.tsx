@@ -18,6 +18,9 @@ export default function Navbar() {
             <TouchableOpacity onPress={() => router.push('/contact')}>
                 <Text style={styles.button}>Contato</Text>
             </TouchableOpacity>
+            {/* <TouchableOpacity onPress={() => router.push('/sobre')}>
+                <Text style={styles.button}>Sobre</Text>
+            </TouchableOpacity> */}
         </View>
     );
 }
