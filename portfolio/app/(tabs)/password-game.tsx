@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, StyleSheet, Alert, FlatList, TouchableOpacity } from 'react-native';
-import { generatePassword, checkGuess } from '../scripts/password-game.logic';
+import { generatePassword, checkGuess } from '../../assets/scripts/password-game';
 import { useRouter } from "expo-router";
 
 export default function PasswordGame() {
