@@ -4,7 +4,7 @@
     "slug": "portfolio-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/favicon.ico",
+    "icon": "./assets/images/favicon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.ico",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#12355bff"
       },
       "package": "com.eduardo.portfolio"
@@ -21,14 +21,14 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.ico"
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.ico",
+          "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#12355bff"
