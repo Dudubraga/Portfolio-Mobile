@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "portfolio",
-    "slug": "portfolio",
+    "slug": "portfolio-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/favicon.ico",
@@ -37,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "600c49ab-f26c-4bd6-922c-d3019f8e9bf2"
+      }
+    },
+    "owner": "edubraga"
   }
 }
