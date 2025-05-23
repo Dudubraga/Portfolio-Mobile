@@ -15,7 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.ico",
         "backgroundColor": "#12355bff"
-      }
+      },
       "package": "com.eduardo.portfolio"
     },
     "web": {
