@@ -51,6 +51,12 @@
         "projectId": "600c49ab-f26c-4bd6-922c-d3019f8e9bf2"
       }
     },
-    "owner": "edubraga"
+    "owner": "edubraga",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/600c49ab-f26c-4bd6-922c-d3019f8e9bf2"
+    }
   }
 }
