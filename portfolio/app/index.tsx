@@ -7,7 +7,7 @@ export default function Index() {
     <View style={styles.container}>
       <TouchableOpacity 
         style={{ position: "absolute", top: 50, right: 20 }} 
-        onPress={() => router.push("/(tabs)/sobre")}>
+        onPress={() => router.push("./(tabs)/sobre")}>
         <Image
           source={require("../assets/images/info.png")}
           style={{ width: 30, height: 30, tintColor: "#eaf6ffff" }}
