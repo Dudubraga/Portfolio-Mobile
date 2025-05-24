@@ -19,24 +19,17 @@ Este é um aplicativo de portfólio pessoal desenvolvido em React Native com Exp
   <img src="images/screenshot_home.jpg" alt="Home" width="45%"/>
 </div>
 
-### Tela de Projetos
+### Tela de Projetos Desenvolvidos e Participados
 <div style="display: flex; gap: 10px;">
   <img src="images/screenshot_projetos_1.jpg" alt="Projetos 1" width="45%"/>
   <img src="images/screenshot_projetos_2.jpg" alt="Projetos 2" width="45%"/>
 </div>
 
-### Tela Sobre o App
+### Tela Sobre o App com Tecnologias Utilizadas
+
 <div style="display: flex; gap: 10px;">
   <img src="images/screenshot_sobre.jpg" alt="Home" width="45%"/>
 </div>
-
-## 🚀 Tecnologias Utilizadas
-
-- React Native
-- Expo
-- TypeScript
-- Expo Router (React Navigation)
-- Componentes nativos do React Native
 
 ## 💻 Como rodar o projeto
 
@@ -55,6 +48,11 @@ Este é um aplicativo de portfólio pessoal desenvolvido em React Native com Exp
    ```bash
    npx expo start
    ```
+   
+## 📦 Download do APK
+
+Baixe o APK mais recente [aqui](https://github.com/Dudubraga/Portfolio-Mobile/releases).
+
 ---
 
 Projeto desenvolvido por **Eduardo Costa Braga**.
